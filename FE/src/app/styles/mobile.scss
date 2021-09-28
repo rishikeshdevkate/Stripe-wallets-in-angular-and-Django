@@ -1,0 +1,16 @@
+// css for mobile devices below 720 px
+
+@media (max-width: 749px) {
+  .adjust-middle-container {
+    padding: 48px 15px 30px 15px;
+  }
+  .admin-container-box {
+    padding: 48px 0px 30px 0px;
+  }
+  .login-image-box {
+    padding: 10px !important;
+  }
+  .login-image {
+    height: 150px;
+  }
+}

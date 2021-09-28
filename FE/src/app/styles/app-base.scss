@@ -1,0 +1,344 @@
+.adjust-middle-container {
+  padding: 72px 60px 30px 60px;
+  min-height: 500px;
+}
+
+.admin-container-box {
+  padding: 72px 0px 30px 0px;
+  min-height: 500px;
+}
+
+.page-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 190.65%;
+  color: #333333;
+}
+
+.login-image-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 190.65%;
+  color: #333333;
+}
+
+.login-image-content {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 190.65%;
+  color: #4f4f4f;
+}
+
+.primary-btn {
+  height: 40px;
+  background: #4c516e;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none !important;
+}
+.primary-btn:disabled {
+  background: rgba(76, 81, 110, 0.5);
+}
+
+.secondary-btn {
+  height: 40px;
+  background: #ffffff;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c7187;
+  border: 1px solid #6c7187 !important;
+}
+
+.showcases-btn {
+  height: 40px;
+  background: #ffffff;
+  // width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  border: none !important;
+}
+
+.showcases-btn:disabled {
+  color: #828282;
+  background: #e9ecef;
+}
+
+.primary-btn:hover {
+  color: #ffffff;
+}
+
+.label-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4f4f4f;
+}
+
+.button-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4f4f4f;
+}
+
+.login-image-box {
+  background: linear-gradient(
+    0deg,
+    rgba(76, 81, 110, 0.13) -24.22%,
+    rgba(196, 196, 196, 0) 115.14%
+  );
+  border-radius: 20px 0px 0px 20px;
+  padding: 55px;
+  text-align: center;
+}
+
+.social-button-box {
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  width: 100%;
+}
+.social-button-box:disabled {
+  opacity: 0.5;
+}
+
+.paragraph {
+  padding: 40px 0 40px 0;
+  font-size: 16px;
+  line-height: 130%;
+}
+// modal css
+.modal-heading-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 190.65%;
+  color: #333333;
+}
+.modal-content-text {
+  font-size: 16px;
+  line-height: 130%;
+  color: #828282;
+}
+
+.info {
+  width: 10.58px;
+  height: 7.76px;
+  border: none;
+  margin-top: 4px;
+}
+
+.input-text {
+  font-size: 12px;
+  line-height: 18px;
+  color: #4f4f4f;
+}
+
+.app-name-text {
+  color: #042860 !important;
+  font-family: "Pridi", sans-serif;
+  letter-spacing: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 38px;
+  cursor: pointer;
+}
+
+.profile-name-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #4f4f4f;
+}
+
+.about-title {
+  color: #4f4f4f;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.title-18 {
+  color: #4f4f4f;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.portfolio {
+  height: 230px;
+  //border: 1px solid gray;
+}
+
+.portfolio-text {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Poppins", Serif, Sans-serif, cursive, fantasy, Monospace;
+  font-style: normal;
+}
+
+.required-field:after {
+  content: " *";
+  color: red;
+}
+
+.required-field-left:before {
+  content: " *";
+  color: red;
+}
+
+.hide-show-pass {
+  margin-right: 10px;
+  float: right;
+  font-family: "Poppins", Serif, Sans-serif, cursive, fantasy, Monospace;
+}
+
+.hide-show-pass:hover {
+  text-decoration: none;
+}
+
+// app image styles
+.profile-img-change {
+  height: 455px;
+  width: 100%;
+  object-fit: cover;
+  background: #f2f2f2;
+}
+.upldImg {
+  background: #f2f2f2;
+  height: 455px;
+}
+.img-upload-blank {
+  margin-top: calc(40%);
+}
+.manage-acc-imgbox {
+  background: #f2f2f2;
+  height: 400px;
+  cursor: pointer;
+}
+.account-img-change {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  background: #f2f2f2;
+}
+.red-color {
+  color: red;
+}
+
+// nav-link route css
+
+.preview-navlink-container {
+  color: #828282;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-item-container {
+  display: flex;
+  flex-direction: row;
+  height: 1.71429em;
+  line-height: 1.71429em;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.dash-nav {
+  color: #828282;
+  flex-shrink: 0;
+  padding: 0px 5px;
+  text-align: center;
+}
+
+.active-color {
+  color: #4f4f4f !important;
+}
+
+.in-active-color {
+  color: #828282 !important;
+}
+
+//job card css
+.avtar {
+  border-radius: 50%;
+  border: 1px solid #828282;
+  width: 72px;
+  height: 72px;
+}
+
+.card {
+  border-radius: 0;
+  background: rgba(242, 242, 242, 0.2);
+  border: 1px solid rgba(79, 79, 79, 0.2);
+  height: 310px;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.card-icons {
+  font-size: 16px;
+  margin-top: 3px;
+  fill: #2d9cdb;
+}
+
+.collabroom-job-description {
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.collabroom-job-location {
+  text-overflow: ellipsis !important;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: flex;
+  height: 27px;
+  -webkit-box-orient: vertical;
+}
+
+.navbar {
+  border-bottom: 0.5px solid #bdbdbd;
+}
+
+.navbar-inactive-tab {
+  height: 72px;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar-active-tab {
+  height: 72px;
+  border-bottom: 2px solid #810048;
+  cursor: pointer;
+  outline: none;
+}
+
+.navbar-inactive-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 190.65%;
+  align-items: center;
+  color: #022e73;
+  padding: 22px 19px;
+}
+
+.navbar-inactive-link:hover {
+  color: #879dc1;
+}

@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "app/styles/app-base.scss";
+@import "app/styles/variables.scss";
+@import "app/styles/override.scss";
+@import "app/styles/mobile.scss";
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", Serif, Sans-serif, cursive, fantasy, Monospace;
+  // text-align: center;
+  color: #4f4f4f;
+}
+
+.time-popover-override {
+  .popover {
+    margin-left: 285px !important;
+  }
+
+  .popover.bottom .arrow {
+    margin-left: 96px !important;
+  }
+
+  .popover .btn-link {
+    font-weight: 400;
+    color: #4f4f4f;
+    text-decoration: none;
+  }
+
+  .popover .btn {
+    color: #495057;
+    outline: none;
+  }
+}
+
+.ngb-dp-arrow .btn-link {
+  color: #4f4f4f;
+  outline: none;
+}
+
+.ngb-dp-weekday {
+  color: #4f4f4f;
+}
+
+.video-js .vjs-big-play-button {
+  margin-left: 44%;
+  margin-top: 20%;
+}
